@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-segmentation-master.flake = false;
+  inputs.src-segmentation-master.ref   = "refs/heads/master";
   inputs.src-segmentation-master.owner = "nitely";
-  inputs.src-segmentation-master.ref   = "master";
   inputs.src-segmentation-master.repo  = "nim-segmentation";
   inputs.src-segmentation-master.type  = "github";
   
